@@ -5,6 +5,17 @@ export default {
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        base: '1.125rem', // increase the base font size
+        xs: "0.875rem",  // Default size for 'xs'
+        sm: "1rem",      // Default size for 'sm'
+        lg: "1.25rem",   // Default size for 'lg'
+        xl: "1.5rem",    // Default size for 'xl'
+        "2xl": "1.875rem", // Default size for '2xl'
+        "3xl": "2.25rem", // Default size for '3xl'
+        "4xl": "3rem",    // Default size for '4xl'
+        "5xl": "3.75rem", // Default size for '5xl'
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
