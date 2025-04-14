@@ -43,7 +43,7 @@ export default function Header() {
         <div className="flex items-center">
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => window.location.href = '/'}>
             <Database className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl">HDX</span>
+            <span className="font-bold text-xl">Neoc Data Bank</span>
           </div>
         </div>
 
